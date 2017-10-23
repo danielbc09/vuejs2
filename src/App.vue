@@ -1,11 +1,14 @@
 <template>
-  <div id="app">
-    <h1>Hello world</h1>
-  </div>
+    <app-server-status></app-server-status>
 </template>
 
 <script>
 export default {
+    data:function () {
+        return{
+            status: 'Critical'
+        }
+    }
 }
 </script>
 
